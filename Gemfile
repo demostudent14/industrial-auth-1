@@ -5,7 +5,6 @@ ruby '2.7.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 
-gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'winter-2020'
 gem 'active_link_to'
 gem "strip_attributes"
 gem "validate_url"
@@ -67,6 +66,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # appdev gems
 # ==================
 group :development do
+  gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'winter-2020'
   gem 'annotate'
   gem 'awesome_print'
   gem 'better_errors'
